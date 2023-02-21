@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
-
 import 'screen/home_page.dart';
+import 'package:firebase_core/firebase_core.dart';
 
- void main(){
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
- }
+}
 
- class MyApp extends StatelessWidget {
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
@@ -14,9 +16,7 @@ import 'screen/home_page.dart';
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'api flutter',
-      theme: ThemeData(
-        primarySwatch: Colors.lightGreen
-      ),
+      theme: ThemeData(primarySwatch: Colors.lightGreen),
       home: const HomePage(),
     );
   }

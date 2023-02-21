@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "358211169043",
+    "project_id": "fake-api-put",
+    "storage_bucket": "fake-api-put.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358211169043:android:b193611ce5cb1f3e66c8e6",
+        "android_client_info": {
+          "package_name": "com.example.product_api"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358211169043-7polt4d927eon4aj9tjgd5p81rd2mj47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2Eh6uYZ9XIcsbYnoYGBGIiS9-J_XE73M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358211169043-7polt4d927eon4aj9tjgd5p81rd2mj47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

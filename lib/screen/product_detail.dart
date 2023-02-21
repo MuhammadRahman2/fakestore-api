@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:product_api/screen/address.dart';
-
+import 'package:product_api/screen/address_info.dart';
 import '../widget/container_button.dart';
 import 'payment.dart';
 
@@ -96,7 +95,7 @@ class ProductDetail extends StatelessWidget {
                       onTap: () => Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (_) => Address(
+                                builder: (_) => AddressInfo(
                                       price: price,
                                     )),
                           ))
